@@ -22,7 +22,7 @@
 
 body {
   background-color: #f5f5f5;
-  background: var(--color-dark);
+  background: linear-gradient(120deg, #eb9f12, #ebe712);
   height: 100vh;
   min-height: 100vh;
   display: grid;
@@ -87,7 +87,7 @@ body {
 .widget .date {
   flex: 0 0 30%;
   height: 40%;
-  background: #7f9639;
+  background: #048b9c;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -184,3 +184,6 @@ body {
   margin-bottom: 50px;
 }
 
+/* .App{
+  background-color: orange;
+} */
